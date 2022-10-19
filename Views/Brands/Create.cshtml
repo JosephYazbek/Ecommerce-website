@@ -1,0 +1,111 @@
+@model Brand
+@{
+    ViewData["Title"] = "Add a new Brand";
+}
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+</head>
+<style>
+    h1{
+        font-family: 'Noto Serif', serif;
+        text-align: center;
+    }
+    .col-lg-12 .form-control{
+     padding: 0.6rem 1rem;
+    }
+    .card-footer{
+        display: flex;
+        justify-content: center;
+        border-top:0px;
+        border-radius: 5px!important;
+        background-color: #f8f9fa;
+        padding: 0%;
+    }
+    center{
+        width:100%;
+    }
+    .btn{
+        width: 48%;
+    }
+    label{
+        font-family: 'Noto Serif', serif;
+        font-size: large;
+    }
+    .container-fluid{
+        background-color: #f8f9fa ;
+    }
+    .navbar{
+        margin-bottom: 0px!important;
+    }
+    header .container-fluid{
+        background-color: white;
+    }
+    
+</style>
+<div class="row text">
+    <div class="col-8 offset-2">
+        <p>
+        <h1>ADD A NEW BRAND</h1>
+        </p>
+        <div class="row">
+            <div class="col-8  offset-2">
+                <form asp-action="Create" asp-area="Brands" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group"> @*must be in the form to create the new brand*@
+                        <img id="LogoURLPreview" class="border-info rounded mx-auto d-block" style="max-width: 250px" />
+                        @* Brand preivew holder *@
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group mb-5">
+                                    <label>Brand URL:</label>
+                                    <input asp-for="LogoURL" type="text" class="form-control" placeholder="Enter URL"
+                                        tabindex="1">
+                                </div>
+                                <div class="form-group mb-5">
+                                    <label>Brand Name:</label>
+                                    <input asp-for="BrandName" type="text" class="form-control"
+                                        placeholder="Enter Brand Name" tabindex="2">
+                                </div>
+                                <div class="form-group mb-5">
+                                    <label>Brand Details:</label>
+                                    <input asp-for="BrandDetail" type="text" class="form-control "
+                                        placeholder="Enter Brand Details" tabindex="3">
+                                </div>
+
+                                <div class="form-group">
+                                    <div asp-validation-summary="All" class="text-danger"></div>
+                                </div>
+                                <div class="card-footer form-group mb-5">
+                                    <center>
+                                        <a class="btn btn-outline-secondary" asp-action="Index">Go Back</a>
+                                        <input type="submit" value="Create"
+                                            class="btn btn-outline-success float-right" />
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@* to preview the picture *@
+@* <style>
+    #LogoURLPreview {
+    width: 100%;
+    } *@
+</style>
+@section Scripts{
+<script>
+    $(document).ready(function () {// when document is ready we want to call the function
+        var output = document.getElementById('LogoURLPreview');
+        output.src = $("#LogoURL").val();
+    })
+    $("#LogoURL").on("change", function () {
+        var output = document.getElementById('LogoURLPreview');
+        output.src = $(this).val();
+    })
+</script>
+}

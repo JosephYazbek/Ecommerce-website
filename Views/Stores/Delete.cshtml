@@ -1,0 +1,70 @@
+@model Store
+@{
+    ViewData["Title"] = "Delete Store";
+}
+<div class="row text">
+    <div class="col-md-8 offset-2">
+        <p>
+        <h1>Delete confirmation @Model.StoreName</h1>
+        </p>
+        <div class="row">
+            <div class="col-md-8  offset-2">
+                <div class="form-group"> @*must be in the form to create the new Store*@
+                    <img class="border-info rounded mx-auto d-block" style="max-width: 250px" id="LogoURLPreview" />
+                    @* Store preivew holder *@
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group mb-2">
+                                <label>Store Logo:</label>
+                                <input asp-for="StoreLogo" type="text" class="form-control" placeholder="Enter URL"
+                                    tabindex="1" readonly>
+                            </div>
+                            <div class="form-group mb-2">
+                                <label>Store Name:</label>
+                                <input asp-for="StoreName" type="text" class="form-control"
+                                    placeholder="Enter Store Name" tabindex="2" readonly>
+                            </div>
+                            <div class="form-group mb-2">
+                                <label>Store Details:</label>
+                                <input asp-for="StoreDescription" type="text" class="form-control "
+                                    placeholder="Enter Store Description" tabindex="3" readonly>
+                            </div>
+                               <div class="form-group mb-2">
+                                <label>Store Location:</label>
+                                <input asp-for="Location" type="text" class="form-control "
+                                    placeholder="Enter Store Location" tabindex="4" readonly>
+                            </div>
+
+                            <div class="form-group">
+                                <div asp-validation-summary="All" class="text-danger"></div>
+                            </div>
+                            <div class="card-footer form-group">
+                                <center>
+                                    <form asp-action="Delete">
+                                        <input type="hidden" asp-for="StoreId" />
+                                        <a class="btn btn-outline-secondary" asp-action="Index">Go Back</a>
+
+                                        <input type="submit" value="Confirm Delete" class="btn btn-danger float-right" />
+                                    </form>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @* to preview the picture *@
+    <style>
+        #LogoURLPreview {
+            width: 100%;
+        }
+    </style>
+    @section Scripts{
+    <script>
+        $(document).ready(function () {// when document is ready we want to call the function
+            var output = document.getElementById('StoreLogoPreview');
+            output.src = $("#StoreLogo").val();
+        })
+    </script>
+    }

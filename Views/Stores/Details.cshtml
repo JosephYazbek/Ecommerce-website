@@ -1,0 +1,109 @@
+@model Store
+@{
+    ViewData["Title"] = "Add a new Store";
+}
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+</head>
+<style>
+    h1{
+     font-family: 'Noto Serif', serif;
+     text-align: center;
+    }
+    .col-lg-12 .form-control{
+     padding: 0.6rem 1rem;
+    }
+    .card-footer{
+        display: flex;
+        justify-content: center;
+        border-top:0px;
+        border-radius: 5px!important;
+        background-color: #f8f9fa;
+        padding: 0%;
+    }
+    center{
+        width:100%;
+    }
+    .btn{
+        width: 48%;
+    }
+    label{
+        font-family: 'Noto Serif', serif;
+        font-size: large;
+    }
+    .container-fluid{
+        background-color: #f8f9fa ;
+    }
+    .navbar{
+        margin-bottom: 0px!important;
+    }
+  
+    header .container-fluid{
+        background-color: white;
+    }
+  
+</style>
+<div class="row text">
+    <div class="col-8 offset-2">
+        <p>
+        <h1>Details for @Model.StoreName</h1>
+        </p>
+        <div class="row">
+            <div class="col-8  offset-2">
+                <div class="form-group"> @*must be in the form to create the new Store*@
+                    <img class="border-info rounded mx-auto d-block" style="max-width: 250px" id="StoreLogoPreview" />
+                    @* Store preivew holder *@
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group mb-4">
+                                <label>Store Logo:</label>
+                                <input asp-for="StoreLogo" type="text" class="form-control" placeholder="Enter URL"
+                                    tabindex="1" readonly>
+                            </div>
+                            <div class="form-group mb-4">
+                                <label>Store Name:</label>
+                                <input asp-for="StoreName" type="text" class="form-control"
+                                    placeholder="Enter Store Name" tabindex="2" readonly>
+                            </div>
+                            <div class="form-group mb-4">
+                                <label>Store Description:</label>
+                                <input asp-for="StoreDescription" type="text" class="form-control "
+                                    placeholder="Enter Store Description" tabindex="3" readonly>
+                            </div>
+                            <div class="form-group mb-5">
+                                <label>Store Location:</label>
+                                <input asp-for="StoreDescription" type="text" class="form-control "
+                                    placeholder="Enter Store Location" tabindex="4" readonly>
+                            </div>
+
+                            <div class="form-group">
+                                <div asp-validation-summary="All" class="text-danger"></div>
+                            </div>
+                            <div class="card-footer form-group mb-4">
+                                <center>
+                                    <a class="btn btn-outline-secondary" asp-action="Index">Go Back</a>
+                                    <a class="btn btn-outline-success float-right" asp-action="Edit" asp-route-id="@Model.StoreId">Edit</a>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @* to preview the picture *@
+    @* <style>
+        #LogoURLPreview {
+            width: 100%;
+        } *@
+    </style>
+    @section Scripts{
+    <script>
+        $(document).ready(function () {// when document is ready we want to call the function
+            var output = document.getElementById('StoreLogoPreview');
+            output.src = $("#StoreLogo").val();
+        })
+    </script>
+    }

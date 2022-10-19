@@ -1,0 +1,305 @@
+C:/Users/HP/OneDrive/Desktop/test/Project/obj/Debug/net6.0/Project.csproj.AssemblyReference.cache
+C:/Users/HP/OneDrive/Desktop/test/Project/obj/Debug/net6.0/Project.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/HP/OneDrive/Desktop/test/Project/obj/Debug/net6.0/Project.AssemblyInfoInputs.cache
+C:/Users/HP/OneDrive/Desktop/test/Project/obj/Debug/net6.0/Project.AssemblyInfo.cs
+C:/Users/HP/OneDrive/Desktop/test/Project/obj/Debug/net6.0/Project.csproj.CoreCompileInputs.cache
+C:/Users/HP/OneDrive/Desktop/test/Project/obj/Debug/net6.0/Project.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/HP/OneDrive/Desktop/test/Project/obj/Debug/net6.0/Project.RazorAssemblyInfo.cache
+C:/Users/HP/OneDrive/Desktop/test/Project/obj/Debug/net6.0/Project.RazorAssemblyInfo.cs
+C:/Users/HP/OneDrive/Desktop/test/Project/obj/Debug/net6.0/Project.dll
+C:/Users/HP/OneDrive/Desktop/test/Project/obj/Debug/net6.0/refint/Project.dll
+C:/Users/HP/OneDrive/Desktop/test/Project/obj/Debug/net6.0/Project.pdb
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/appsettings.Development.json
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/appsettings.json
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/Project.staticwebassets.runtime.json
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/Project.exe
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/Project.deps.json
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/Project.runtimeconfig.json
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/Project.dll
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/Project.pdb
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/Humanizer.dll
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/Microsoft.Data.Sqlite.dll
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Sqlite.Design.dll
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/SQLitePCLRaw.batteries_v2.dll
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/SQLitePCLRaw.core.dll
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/runtimes/alpine-x64/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/runtimes/linux-arm/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/runtimes/linux-arm64/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/runtimes/linux-armel/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/runtimes/linux-mips64/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/runtimes/linux-s390x/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/runtimes/linux-x64/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/runtimes/linux-x86/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/runtimes/win-arm/native/e_sqlite3.dll
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/runtimes/win-arm64/native/e_sqlite3.dll
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/runtimes/win-x64/native/e_sqlite3.dll
+C:/Users/HP/OneDrive/Desktop/test/Project/bin/Debug/net6.0/runtimes/win-x86/native/e_sqlite3.dll
+C:/Users/HP/OneDrive/Desktop/test/Project/obj/Debug/net6.0/staticwebassets.build.json
+C:/Users/HP/OneDrive/Desktop/test/Project/obj/Debug/net6.0/staticwebassets.development.json
+C:/Users/HP/OneDrive/Desktop/test/Project/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/HP/OneDrive/Desktop/test/Project/obj/Debug/net6.0/scopedcss/bundle/Project.styles.css
+C:/Users/HP/OneDrive/Desktop/test/Project/obj/Debug/net6.0/scopedcss/projectbundle/Project.bundle.scp.css
+C:/Users/HP/OneDrive/Desktop/test/Project/obj/Debug/net6.0/Project.csproj.CopyComplete
+C:/Users/HP/OneDrive/Desktop/test/Project/obj/Debug/net6.0/Project.genruntimeconfig.cache
+C:/Users/HP/OneDrive/Desktop/test/Project/obj/Debug/net6.0/ref/Project.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/obj/Debug/net6.0/Project.csproj.AssemblyReference.cache
+C:/Users/HP/OneDrive/Desktop/New folder/Project/obj/Debug/net6.0/Project.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/HP/OneDrive/Desktop/New folder/Project/obj/Debug/net6.0/Project.AssemblyInfoInputs.cache
+C:/Users/HP/OneDrive/Desktop/New folder/Project/obj/Debug/net6.0/Project.AssemblyInfo.cs
+C:/Users/HP/OneDrive/Desktop/New folder/Project/obj/Debug/net6.0/Project.csproj.CoreCompileInputs.cache
+C:/Users/HP/OneDrive/Desktop/New folder/Project/obj/Debug/net6.0/Project.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/HP/OneDrive/Desktop/New folder/Project/obj/Debug/net6.0/Project.RazorAssemblyInfo.cache
+C:/Users/HP/OneDrive/Desktop/New folder/Project/obj/Debug/net6.0/Project.RazorAssemblyInfo.cs
+C:/Users/HP/OneDrive/Desktop/New folder/Project/obj/Debug/net6.0/Project.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/obj/Debug/net6.0/refint/Project.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/obj/Debug/net6.0/Project.pdb
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/appsettings.Development.json
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/appsettings.json
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/Project.staticwebassets.runtime.json
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/Project.exe
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/Project.deps.json
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/Project.runtimeconfig.json
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/Project.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/Project.pdb
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/Humanizer.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/Microsoft.Data.Sqlite.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Sqlite.Design.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/SQLitePCLRaw.batteries_v2.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/SQLitePCLRaw.core.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/runtimes/alpine-x64/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/runtimes/linux-arm/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/runtimes/linux-arm64/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/runtimes/linux-armel/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/runtimes/linux-mips64/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/runtimes/linux-s390x/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/runtimes/linux-x64/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/runtimes/linux-x86/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/runtimes/win-arm/native/e_sqlite3.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/runtimes/win-arm64/native/e_sqlite3.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/runtimes/win-x64/native/e_sqlite3.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/bin/Debug/net6.0/runtimes/win-x86/native/e_sqlite3.dll
+C:/Users/HP/OneDrive/Desktop/New folder/Project/obj/Debug/net6.0/staticwebassets.build.json
+C:/Users/HP/OneDrive/Desktop/New folder/Project/obj/Debug/net6.0/staticwebassets.development.json
+C:/Users/HP/OneDrive/Desktop/New folder/Project/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/HP/OneDrive/Desktop/New folder/Project/obj/Debug/net6.0/scopedcss/bundle/Project.styles.css
+C:/Users/HP/OneDrive/Desktop/New folder/Project/obj/Debug/net6.0/scopedcss/projectbundle/Project.bundle.scp.css
+C:/Users/HP/OneDrive/Desktop/New folder/Project/obj/Debug/net6.0/Project.csproj.CopyComplete
+C:/Users/HP/OneDrive/Desktop/New folder/Project/obj/Debug/net6.0/Project.genruntimeconfig.cache
+C:/Users/HP/OneDrive/Desktop/New folder/Project/obj/Debug/net6.0/ref/Project.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/appsettings.Development.json
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/appsettings.json
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/Project.staticwebassets.runtime.json
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/Project.exe
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/Project.deps.json
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/Project.runtimeconfig.json
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/Project.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/Project.pdb
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/Humanizer.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/Microsoft.Data.Sqlite.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Sqlite.Design.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/SQLitePCLRaw.batteries_v2.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/SQLitePCLRaw.core.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/runtimes/alpine-x64/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/runtimes/linux-arm/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/runtimes/linux-arm64/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/runtimes/linux-armel/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/runtimes/linux-mips64/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/runtimes/linux-s390x/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/runtimes/linux-x64/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/runtimes/linux-x86/native/libe_sqlite3.so
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/runtimes/win-arm/native/e_sqlite3.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/runtimes/win-arm64/native/e_sqlite3.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/runtimes/win-x64/native/e_sqlite3.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/bin/Debug/net6.0/runtimes/win-x86/native/e_sqlite3.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/obj/Debug/net6.0/Project.csproj.AssemblyReference.cache
+C:/Users/HP/OneDrive/Desktop/latest2/Project/obj/Debug/net6.0/Project.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/HP/OneDrive/Desktop/latest2/Project/obj/Debug/net6.0/Project.AssemblyInfoInputs.cache
+C:/Users/HP/OneDrive/Desktop/latest2/Project/obj/Debug/net6.0/Project.AssemblyInfo.cs
+C:/Users/HP/OneDrive/Desktop/latest2/Project/obj/Debug/net6.0/Project.csproj.CoreCompileInputs.cache
+C:/Users/HP/OneDrive/Desktop/latest2/Project/obj/Debug/net6.0/Project.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/HP/OneDrive/Desktop/latest2/Project/obj/Debug/net6.0/Project.RazorAssemblyInfo.cache
+C:/Users/HP/OneDrive/Desktop/latest2/Project/obj/Debug/net6.0/Project.RazorAssemblyInfo.cs
+C:/Users/HP/OneDrive/Desktop/latest2/Project/obj/Debug/net6.0/staticwebassets.build.json
+C:/Users/HP/OneDrive/Desktop/latest2/Project/obj/Debug/net6.0/staticwebassets.development.json
+C:/Users/HP/OneDrive/Desktop/latest2/Project/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/HP/OneDrive/Desktop/latest2/Project/obj/Debug/net6.0/scopedcss/bundle/Project.styles.css
+C:/Users/HP/OneDrive/Desktop/latest2/Project/obj/Debug/net6.0/scopedcss/projectbundle/Project.bundle.scp.css
+C:/Users/HP/OneDrive/Desktop/latest2/Project/obj/Debug/net6.0/Project.csproj.CopyComplete
+C:/Users/HP/OneDrive/Desktop/latest2/Project/obj/Debug/net6.0/Project.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/obj/Debug/net6.0/refint/Project.dll
+C:/Users/HP/OneDrive/Desktop/latest2/Project/obj/Debug/net6.0/Project.pdb
+C:/Users/HP/OneDrive/Desktop/latest2/Project/obj/Debug/net6.0/Project.genruntimeconfig.cache
+C:/Users/HP/OneDrive/Desktop/latest2/Project/obj/Debug/net6.0/ref/Project.dll
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/appsettings.Development.json
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/appsettings.json
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/Project.staticwebassets.runtime.json
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/Project
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/Project.deps.json
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/Project.runtimeconfig.json
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/Project.dll
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/Project.pdb
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/Humanizer.dll
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/Microsoft.Data.Sqlite.dll
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.Design.dll
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Sqlite.Design.dll
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/SQLitePCLRaw.batteries_v2.dll
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/SQLitePCLRaw.core.dll
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/runtimes/alpine-x64/native/libe_sqlite3.so
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/runtimes/linux-arm/native/libe_sqlite3.so
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/runtimes/linux-arm64/native/libe_sqlite3.so
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/runtimes/linux-armel/native/libe_sqlite3.so
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/runtimes/linux-mips64/native/libe_sqlite3.so
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/runtimes/linux-s390x/native/libe_sqlite3.so
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/runtimes/linux-x64/native/libe_sqlite3.so
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/runtimes/linux-x86/native/libe_sqlite3.so
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/runtimes/win-arm/native/e_sqlite3.dll
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/runtimes/win-arm64/native/e_sqlite3.dll
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/runtimes/win-x64/native/e_sqlite3.dll
+/Users/saranajjar/Desktop/278proj/Project/bin/Debug/net6.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/saranajjar/Desktop/278proj/Project/obj/Debug/net6.0/Project.csproj.AssemblyReference.cache
+/Users/saranajjar/Desktop/278proj/Project/obj/Debug/net6.0/Project.GeneratedMSBuildEditorConfig.editorconfig
+/Users/saranajjar/Desktop/278proj/Project/obj/Debug/net6.0/Project.AssemblyInfoInputs.cache
+/Users/saranajjar/Desktop/278proj/Project/obj/Debug/net6.0/Project.AssemblyInfo.cs
+/Users/saranajjar/Desktop/278proj/Project/obj/Debug/net6.0/Project.csproj.CoreCompileInputs.cache
+/Users/saranajjar/Desktop/278proj/Project/obj/Debug/net6.0/Project.MvcApplicationPartsAssemblyInfo.cache
+/Users/saranajjar/Desktop/278proj/Project/obj/Debug/net6.0/Project.RazorAssemblyInfo.cache
+/Users/saranajjar/Desktop/278proj/Project/obj/Debug/net6.0/Project.RazorAssemblyInfo.cs
+/Users/saranajjar/Desktop/278proj/Project/obj/Debug/net6.0/staticwebassets.build.json
+/Users/saranajjar/Desktop/278proj/Project/obj/Debug/net6.0/staticwebassets.development.json
+/Users/saranajjar/Desktop/278proj/Project/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/saranajjar/Desktop/278proj/Project/obj/Debug/net6.0/scopedcss/bundle/Project.styles.css
+/Users/saranajjar/Desktop/278proj/Project/obj/Debug/net6.0/scopedcss/projectbundle/Project.bundle.scp.css
+/Users/saranajjar/Desktop/278proj/Project/obj/Debug/net6.0/Project.csproj.CopyComplete
+/Users/saranajjar/Desktop/278proj/Project/obj/Debug/net6.0/Project.dll
+/Users/saranajjar/Desktop/278proj/Project/obj/Debug/net6.0/refint/Project.dll
+/Users/saranajjar/Desktop/278proj/Project/obj/Debug/net6.0/Project.pdb
+/Users/saranajjar/Desktop/278proj/Project/obj/Debug/net6.0/Project.genruntimeconfig.cache
+/Users/saranajjar/Desktop/278proj/Project/obj/Debug/net6.0/ref/Project.dll
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\appsettings.json
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\Project.staticwebassets.runtime.json
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\Project.exe
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\Project.deps.json
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\Project.runtimeconfig.json
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\Project.dll
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\Project.pdb
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\Humanizer.dll
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.Design.dll
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\AUB\Desktop\Project\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\AUB\Desktop\Project\obj\Debug\net6.0\Project.csproj.AssemblyReference.cache
+C:\Users\AUB\Desktop\Project\obj\Debug\net6.0\Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AUB\Desktop\Project\obj\Debug\net6.0\Project.AssemblyInfoInputs.cache
+C:\Users\AUB\Desktop\Project\obj\Debug\net6.0\Project.AssemblyInfo.cs
+C:\Users\AUB\Desktop\Project\obj\Debug\net6.0\Project.csproj.CoreCompileInputs.cache
+C:\Users\AUB\Desktop\Project\obj\Debug\net6.0\Project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\AUB\Desktop\Project\obj\Debug\net6.0\Project.RazorAssemblyInfo.cache
+C:\Users\AUB\Desktop\Project\obj\Debug\net6.0\Project.RazorAssemblyInfo.cs
+C:\Users\AUB\Desktop\Project\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\AUB\Desktop\Project\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\AUB\Desktop\Project\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\AUB\Desktop\Project\obj\Debug\net6.0\scopedcss\bundle\Project.styles.css
+C:\Users\AUB\Desktop\Project\obj\Debug\net6.0\scopedcss\projectbundle\Project.bundle.scp.css
+C:\Users\AUB\Desktop\Project\obj\Debug\net6.0\Project.csproj.CopyComplete
+C:\Users\AUB\Desktop\Project\obj\Debug\net6.0\Project.dll
+C:\Users\AUB\Desktop\Project\obj\Debug\net6.0\refint\Project.dll
+C:\Users\AUB\Desktop\Project\obj\Debug\net6.0\Project.pdb
+C:\Users\AUB\Desktop\Project\obj\Debug\net6.0\Project.genruntimeconfig.cache
+C:\Users\AUB\Desktop\Project\obj\Debug\net6.0\ref\Project.dll

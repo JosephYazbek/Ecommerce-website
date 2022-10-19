@@ -1,0 +1,113 @@
+@* We want to define the model/data type the brands and define the view data that will show *@
+@model Item
+@{
+    ViewData["Title"] = "Movie Details";
+}
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+</head>
+<style>
+    h2{
+        font-family: 'Noto Serif', serif;
+        text-align: center;
+    }
+     .container-fluid{
+        background-color: #f8f9fa ;
+    }
+     .navbar{
+        margin-bottom: 0px!important;
+    }
+    header .container-fluid{
+        background-color: white;
+    }
+    .card-header{
+        background-color: #9EC4C5;
+    }
+    .card-text b{
+        font-family: 'Noto Serif', serif;
+        font-weight: bolder;
+    }
+    .col-md-8{
+        text-align: center;
+    }
+    .card-body{
+        height: 100%;
+        
+       
+    }
+    .col-md-8 .card-body .card-text{
+        padding: 10px;
+    }
+     .card-footer .btn{
+        width: 48%;
+        
+    }
+   
+        
+   
+</style>
+<div class="Container table-responsive">
+    <div class="row">
+
+        <div class="col-md-8 offset-2">
+            <div class="card mb-12">
+                <div class="row g-0">
+                    <div class="col-md-12 ">
+                        <div class="card-header text-white">
+                            <p class="card-text">
+                            <h2 class="card-title">
+                                    @Model.ItemName
+                            </h2>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="@Model.PictureURL" width="100%" alt="@Model.ItemName">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-text">@Model.ItemDescription</p>
+                            <p class="card-text"><b>Brand: </b>
+                                <a asp-controller="Brands" asp-action="Details"
+                                    asp-route-id="@Model.BrandId">@Model.Brand.BrandName</a>
+                            </p>
+                            <p class="card-text"><b>Store: </b>
+                                <a asp-controller="Stores" asp-action="Details"
+                                    asp-route-id="@Model.StoreId">@Model.Store.StoreName</a>
+                            </p>
+                            <p class="card-text"><b>Size: </b>@Model.itemsize</p>
+                            <p class="card-text"><b>Category: </b>@Model.ItemCategory</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card-footer ">
+                            <p class="card-text">
+                                @*
+                                    <a class="btn btn-outline-primary float-right" asp-action="Details"
+                                    asp-route-id="@Model.Id">
+                                    <i class="bi bi-eye-fill"></i> Show Details
+                                    </a>
+                                    <a class="btn btn-success text-white @((DateTime.Now > item.EndDate) ? "disabled" : "")"
+                                    asp-controller="Orders"
+                                    asp-action="AddItemToShoppingCart"
+                                    asp-route-id="@Model.Id">
+                                    <i class="bi bi-cart-plus"></i> Add to Cart (Price @Model.Price.ToString("c"))
+                                    </a>
+                                *@
+                                <a class="btn btn-outline-secondary float-right" asp-action="Index">
+                                    Back to List
+                                </a>
+                                <a class="btn btn-success text-white" asp-controller="Orders" asp-action="AddToCart" asp-route-id="@Model.Id"><i class="bi bi-cart-plus"></i>Add to Cart(Price
+                                    @Model.Price.ToString("c"))</a>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

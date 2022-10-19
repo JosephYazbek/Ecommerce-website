@@ -1,0 +1,111 @@
+@model LoginViewModel
+@{
+    ViewBag.Title = "Login";
+}
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+</head>
+<style>
+    h1 {
+        font-family: 'Noto Serif', serif;
+        text-align: center;
+
+    }
+
+    .btn-primary {
+        color: #660c21;
+        border-color: #660c21;
+        width: 6rem;
+        background: none;
+
+    }
+
+    .btn-primary:hover {
+        background-color: #660c21;
+        border-color: #660c21;
+    }
+
+    label {
+        font-family: 'Noto Serif', serif;
+
+    }
+
+    LABEL.indented-checkbox-text {
+        margin-left: 2em;
+        display: block;
+        position: relative;
+        margin-top: -1.4em;
+        line-height: 1.4em;
+    }
+
+    .names {
+        margin-left: 20px;
+    }
+
+    body:not(header, footer) {
+        background-color: #f8f9fa;
+    }
+
+    .card-footer {
+        background: none;
+        border: none;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .offset-2 a {
+        text-decoration: none;
+        color: #9EC4C5;
+    }
+
+    .offset-2 a:hover {
+        text-shadow: 1px 1px 10px black, 1px 1px 10px #ccc;
+        color: white;
+
+    }
+</style>
+<div class="row">
+    <div class="col-8 offset-2">
+        <p>
+        <h1>Login</h1>
+        </p>
+        <div class="col-8 offset-2">
+            <form method="post" asp-action="LogIn" asp-route-returnurl="@Model.ReturnUrl">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group mb-4">
+                            <label asp-for="Username" class="control-label"></label>
+                            <input asp-for="Username" class="form-control" />
+                            <span asp-validation-for="Username" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-4">
+                            <label asp-for="Password" class="control-label"></label>
+                            <input asp-for="Password" class="form-control" type="password" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer form-group mb-4">
+
+                    <div class="offset-sm-2 col-sm-4 ">
+                        <input type="checkbox" title="Remeber Me" asp-for="RememberMe" class="form-check" />
+                        <label class="indented-checkbox-text">Remeber Me</label>
+                    </div>
+                    <div class="offset-2 col-sm-4 m-0 ">
+                        <button type="submit" class="btn btn-primary">Log In</button>
+                    </div>
+                    <div class="offset-2 col-sm-4 m-0">
+                        Not Registered?
+                        <br>
+                        <a asp-action="Register">Register as a new user</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>

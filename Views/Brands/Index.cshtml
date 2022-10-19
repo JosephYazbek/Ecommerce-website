@@ -1,0 +1,185 @@
+@* We want to define the model/data type the brands and define the view data that will show *@
+@model IEnumerable<Brand>
+@{
+    ViewData["Title"] = "List of Brands";
+}
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+</head>
+<style>
+    th {
+        text-align: center;
+        font-family: 'Noto Serif', serif;
+        font-size: large;
+        padding: 1.2rem !important;
+    }
+
+    .container-fluid {
+        background-color: #f8f9fa;
+    }
+
+    .navbar {
+        margin-bottom: 0px !important;
+    }
+
+    header .container-fluid {
+        background-color: white;
+    }
+
+    td .btn {
+        width: 8rem !important;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+
+    .align-middle {
+        text-align: center;
+    }
+
+    .btn-outline-primary {
+        color: #696667FF;
+        border-color: #696667FF;
+    }
+
+    .btn-outline-primary:hover {
+        background-color: #F2C2C2;
+        border-color: #F2C2C2;
+    }
+
+    .btn-outline-info {
+        color: #567572FF;
+        border-color: #567572FF;
+    }
+
+    .btn-outline-info:hover {
+        background-color: #9EC4C5;
+        border-color: #9EC4C5;
+        color: white;
+    }
+
+    .btn-danger {
+        background-color: #CD5C5C;
+        border-color: #CD5C5C;
+    }
+
+    .col-2 .btn {
+        margin-top: 15px;
+        width: 6rem;
+        margin: 20px;
+        background: linear-gradient(45deg, #C1DDD8, #9EC4C5, #F2C2C2, #F5E4DC);
+        border-color: #f8f9fa;
+        border-radius: 10px;
+    }
+
+    .col-2 .bi {
+        font-size: larger;
+    }
+
+    .col-2 .btn:hover {
+        background: linear-gradient(45deg, #F5E4DC, #F2C2C2, #9EC4C5, #C1DDD8);
+        box-shadow: rgba(245, 228, 220, 0.4) -5px 5px, rgba(242, 194, 194, 0.3) -10px 10px, rgba(158, 196, 197, 0.2) -15px 15px, rgba(193, 221, 216, 0.1) -20px 20px;
+    }
+
+    h1 {
+        font-family: 'Noto Serif', serif;
+        text-align: center;
+
+    }
+
+    #btn-back-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: none;
+        border-radius: 50px;
+        background-color: #696667FF;
+        border-color: #696667FF;
+    }
+</style>
+<div class="row">
+    <div class=" col-2 table-responsive">
+        <a asp-controller="Brands" asp-action="Create" class="btn btn-success"><i class="bi bi-plus-circle"></i> </a>
+
+    </div>
+    <div class="col-8">
+        <h1>BRANDS</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-8 offset-2 table-responsive">
+
+        <table class="table">
+            <thead>
+                <tr class="text-center">
+                    <th>@Html.DisplayNameFor(model => model.LogoURL)</th>
+                    <th>@Html.DisplayNameFor(model => model.BrandName)</th>
+                    <th>@Html.DisplayNameFor(model => model.BrandDetail)</th>
+                    <th>Actions</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="align-middle">
+                            <img class="rounded" src="@item.LogoURL" alt="@item.BrandName" style="max-width: 150px" />
+                        </td>
+                        <td class="align-middle">
+                            @Html.DisplayFor(modelItem =>item.BrandName)
+                        </td>
+                        <td class="align-middle">
+                            @Html.DisplayFor(modelItem =>item.BrandDetail)
+
+                        </td>
+                        <td class="align-middle">
+                            <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@item.BrandId"><i
+                                class="bi bi-pencil-square">Edit</i></a>
+                            <a class="btn btn-outline-info" asp-controller="Brands" asp-action="Details"
+                            asp-route-id="@item.BrandId"><i class="bi bi-eye">Details</i></a>
+                            <a class="btn btn-danger text-white" asp-action="Delete" asp-route-id="@item.BrandId"><i
+                                class="bi bi-trash">Delete</i></a> @*to make it dark mode and white mode change
+                                text-white/black*@
+
+                        </td>
+
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+    </div>
+</div>
+<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+<script>
+    //Get the button
+    let mybutton = document.getElementById("btn-back-to-top");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+        scrollFunction();
+    };
+
+    function scrollFunction() {
+        if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+        ) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    mybutton.addEventListener("click", backToTop);
+
+    function backToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>

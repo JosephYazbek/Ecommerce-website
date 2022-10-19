@@ -1,0 +1,137 @@
+@* @ViewData["Welcome"] requires type casting
+    <br/>
+    @ViewBag.itemDetails does not requires type casting
+*@
+@model NewItemVM
+@using Project.Data;
+@{
+    ViewData["Title"] = "Create a new Item";
+}
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+</head>
+<style>
+    h1{
+        font-family: 'Noto Serif', serif;
+        text-align: center;
+    }
+    .col-md-6 .form-control{
+        padding: 0.6rem 1rem;
+    }
+    .card-footer{
+        display: flex;
+        justify-content: center;
+        border-top:0px;
+        border-radius: 5px!important;
+        background-color: #f8f9fa;
+        padding: 0%;
+    }
+     center{
+        width:100%;
+    }
+    .row .btn{
+        width: 48%;
+    }
+    label{
+        font-family: 'Noto Serif', serif;
+        font-size: large;
+    }
+    .container-fluid{
+        background-color: #f8f9fa ;
+    }
+    .navbar{
+        margin-bottom: 0px!important;
+    }
+    header .container-fluid{
+        background-color: white;
+    }
+</style>
+<div class="row">
+    <div class="col-8 offset-2">
+        <p>
+        <h1>Create a new Item</h4>
+        </p>
+        <div class="row">
+            <div class="col-8 offset-2">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="row"> @* will have 2 col*@
+                        <div class="col-4 offset-4 text-center">
+                            <img width="100%" id="PictureURLPreview" class="rounded" />
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group mb-4">
+                                <label asp-for="ItemName" class="control-label"></label>
+                                <input asp-for="ItemName" class="form-control" />
+                                <span asp-validation-for="ItemName" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group mb-4">
+                                <label asp-for="itemsize" class="control-label"></label>
+                                <select asp-for="itemsize" class="form-control" asp-items="Html.GetEnumSelectList<ItemSize>()"><option value="null" selected></option></select>
+                                <span asp-validation-for="itemsize" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group mb-4">
+                                <label asp-for="Price" class="control-label"></label>
+                                <input asp-for="Price" type="number" class="form-control" />
+                                <span asp-validation-for="Price" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group mb-4">
+                                <label asp-for="PictureURL" class="control-label"></label>
+                                <input asp-for="PictureURL" class="form-control" />
+                                <span asp-validation-for="PictureURL" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group mb-4">
+                                <label asp-for="StoreId" class="control-label"></label>
+                                <select asp-for="StoreId" multiple class="form-control" asp-items="ViewBag.Stores" size=3 ></select>
+                                <span asp-validation-for="StoreId" class="text-danger"></span>
+                            </div>
+                            <div class="form-group mb-4">
+                                <label asp-for="BrandId" class="control-label"></label>
+                                <select asp-for="BrandId" class="form-control" asp-items="ViewBag.Brands"><option value="null" selected></option></select>
+                                <span asp-validation-for="BrandId" class="text-danger"></span>
+                            </div>
+                            <div class="form-group mb-4">
+                                <label asp-for="ItemCategory" class="control-label"></label>
+                                <select asp-for="ItemCategory" class="form-control" asp-items="Html.GetEnumSelectList<ItemCategory>()"><option value="null" selected></option></select>
+                                <span asp-validation-for="ItemCategory" class="text-danger"></span>
+                            </div>
+                            @* Add select for size *@
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group mb-4">
+                                <label asp-for="ItemDescription" class="control-label"></label>
+                                <textarea asp-for="ItemDescription" class="form-control"></textarea>
+                                <span asp-validation-for="ItemDescription" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer form-group mb-4">
+                        <center>
+                            <a class="btn btn-outline-secondary" asp-controller="Items"asp-action="Index">Go Back</a>
+                            <input type="submit" value="Create" class="btn btn-outline-success float-right" />
+                        </center>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+@section Scripts{
+<script>
+
+    $("#PictureURL").on("change", function () {
+        var output = document.getElementById('PictureURLPreview');
+        output.src = $(this).val();
+    })
+</script>
+}

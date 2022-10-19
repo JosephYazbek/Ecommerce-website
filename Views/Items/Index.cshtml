@@ -1,0 +1,186 @@
+@* We want to define the model/data type the brands and define the view data that will show *@
+@model List<Item>
+
+@{
+    ViewData["Title"] = "List of Items";
+}
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+</head>
+<style>
+    #btn-back-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: none;
+        border-radius: 50px;
+        background-color: #696667FF;
+        border-color: #696667FF;
+    }
+     .col-2 .btn {
+        margin-top: 15px;
+        width: 6rem;
+        margin: 20px;
+        background: linear-gradient(45deg, #C1DDD8, #9EC4C5, #F2C2C2, #F5E4DC);
+        border-color: #f8f9fa;
+        border-radius: 10px;
+    }
+
+    .col-2 .bi {
+        font-size: larger;
+    }
+
+    .col-2 .btn:hover {
+        background: linear-gradient(45deg, #F5E4DC, #F2C2C2, #9EC4C5, #C1DDD8);
+        box-shadow: rgba(245, 228, 220, 0.4) -5px 5px, rgba(242, 194, 194, 0.3) -10px 10px, rgba(158, 196, 197, 0.2) -15px 15px, rgba(193, 221, 216, 0.1) -20px 20px;
+    }
+     h1 {
+        font-family: 'Noto Serif', serif;
+        text-align: center;
+
+    }
+       .container-fluid {
+        background-color: #f8f9fa;
+    }
+    .navbar {
+        margin-bottom: 0px !important;
+    }
+
+    header .container-fluid {
+        background-color: white;
+    }
+    .Container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .card-header{
+        background-color: #9EC4C5!important;
+    }
+    .card-title{
+        font-family: 'Noto Serif', serif;
+        text-align: center;
+    }
+    .card-text .btn-outline-primary:hover{
+        background-color: #F2C2C2;
+        border-color: #F2C2C2;
+        color: white;
+    
+    }
+     .card-text .btn-outline-primary{
+     color: #696667FF;
+     border-color: #696667FF;
+    
+    }
+    .card-footer .card-text .btn {
+        margin-top: 10px;
+        justify-content: space-around;
+    }
+    
+
+</style>
+<div class="row">
+    <div class=" col-2 table-responsive">
+        <a asp-controller="Items" asp-action="Create" class="btn btn-success"><i class="bi bi-plus-circle"></i> </a>
+
+    </div>
+    <div class="col-8">
+        <h1>ITEMS</h1>
+    </div>
+</div>
+<div class="Container">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-xs-6 col-md-3  border-primary mb-3">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-12">
+                            <div class="card-header text-white bg-info">
+                                <p class="card-text">
+                                <h5 class="card-title">
+                                        @item.ItemName
+                                        @* @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                                        { *@
+                                        <a class="text-white float-right" asp-action="Edit" asp-route-id="@item.Id"><i
+                                        class="bi bi-pencil-square"></i></a>
+                                        @* } *@
+                                </h5>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="@item.PictureURL" width="100%" alt="@item.ItemName">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <p class="card-text">@item.ItemDescription</p>
+                                <p class="card-text"><b>Store: </b>@item.Store.StoreName</p>
+                                <p class="card-text"><b>Size: </b>@item.itemsize</p>
+                                <p class="card-text"><b>Category: </b>@item.ItemCategory</p>
+
+
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card-footer ">
+                                <p class="card-text">
+                                    @*
+                                        <a class="btn btn-outline-primary float-right" asp-action="Details"
+                                        asp-route-id="@item.Id">
+                                        <i class="bi bi-eye-fill"></i> Show Details
+                                        </a>
+                                        <a class="btn btn-success text-white @((DateTime.Now > item.EndDate) ? "disabled" : "")"
+                                        asp-controller="Orders"
+                                        asp-action="AddItemToShoppingCart"
+                                        asp-route-id="@item.Id">
+                                        <i class="bi bi-cart-plus"></i> Add to Cart (Price @item.Price.ToString("c"))
+                                        </a>
+                                    *@
+                                    <a class="btn btn-outline-primary float-right" asp-action="Details" asp-route-id="@item.Id">
+                                        <i class="bi bi-eye-fill"></i>Show Details
+                                        </a>
+                                    <a class="btn btn-success text-white" asp-controller="Orders" asp-action="AddToCart" asp-route-id=@item.Id><i class="bi bi-cart-plus"></i>Add to Cart(Price
+                                        @item.Price.ToString("c"))</a>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+<script>
+    //Get the button
+    let mybutton = document.getElementById("btn-back-to-top");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+        scrollFunction();
+    };
+
+    function scrollFunction() {
+        if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+        ) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    mybutton.addEventListener("click", backToTop);
+
+    function backToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+@* @await Html.PartialAsync("_CreateItem", "Items") in the _CreateItem.cshtml in the Views - Shared (partial view) can do this for the other indexs of the views *@
